@@ -3,6 +3,7 @@ fileName: dist/index.js
 runFunction: main
 auths:
 - name: slack
+  linked_setup_auth_step:
 env: null
 inputs:
 - name: channel
