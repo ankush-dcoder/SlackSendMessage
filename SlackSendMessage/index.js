@@ -4,7 +4,6 @@ const {
   
 const main = async (inputs, secrets, auths, context) => {
     // Send to Slack
-
     let channel = inputs.channel
     let text = inputs.text
     let token = auths.SLACK.ACCESS_TOKEN
