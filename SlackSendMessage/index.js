@@ -3,7 +3,7 @@ const {
   } = require('@slack/web-api')
   
 const main = async (inputs, secrets, auths, context) => {
-  // Send to Slack
+    // Send to Slack
 
     let channel = inputs.channel
     let text = inputs.text
